@@ -33,9 +33,13 @@ Diseñada para pentesters, analistas de ciberseguridad y entusiastas del hacking
 ### 🔹Instalación
 
 git clone https://github.com/Sebastian-p-c/nmap-pretty.git
+
 cd nmap-pretty
+
 chmod +x nmap_pretty.sh
 
 ./nmap_pretty.sh path/to/nmap_output.txt
-# o con la opción JSON:
+
+con la opción JSON:
+
 ./nmap_pretty.sh -j path/to/nmap_output.txt > salida.json
